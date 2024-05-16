@@ -1,12 +1,5 @@
 public class Fibonacci {
 
-    /**
-     * Computes the nth term in the Fibonacci sequence.
-     * 
-     * @param n the position in the Fibonacci sequence (must be a positive integer)
-     * @return the nth term in the Fibonacci sequence
-     * @throws IllegalArgumentException if n is not a positive integer
-     */
     public static int fibonacci(int n) {
         if (n <= 0) {
             throw new IllegalArgumentException("n must be a positive integer");
